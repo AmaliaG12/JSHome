@@ -54,3 +54,36 @@ while (numero < 11) {
     console.log("4 * " + numero + " = " + 4 * numero)
     numero++;
 }
+// ejemplo12
+while (true) {
+    var numero = Math.floor(Math.random() * 100);
+    console.log(numero);
+    if (numero === 45) {
+        break;
+    }
+}
+// ejemplo13
+var i = 1;
+do{
+    console.log(i);
+    i++;
+} while (i <= 10);
+// ejemplo14
+do{
+    var numero = Math.floor(Math.random() * 100);
+    console.log(numero);
+    if (numero === 45) {
+        break;
+    }
+} while (numero < 8);
+// ejemplo15
+var numero = 5;
+do {
+    console.log("Hola Mundo " + numero)
+} while (numero < 2);
+// ejemplo16
+var numeros = 5;
+do {
+    console.log("Hola Mundo "+ numeros)
+    numeros--;
+} while (numeros >0);
