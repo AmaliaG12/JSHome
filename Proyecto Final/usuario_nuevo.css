@@ -1,0 +1,35 @@
+*{
+    --rojo: #0a744b58;
+    --fondo: #ffff;
+}
+header .logotipo{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--rojo);
+    font-size: 40px;
+}
+header nav a{
+    color: rgb(25, 60, 60);
+    text-decoration: none;
+    margin-right: 20px;
+}
+header nav a:hover,
+header nav a.activo{
+    color: #601394;
+}
+.container {
+    width: 100%;
+    height: 100em;
+    background-color: #7936a0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Form_Content{
+    width: 100%;
+    max-width: 450px;
+    background-color: #4974c9;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 25px;
+}
